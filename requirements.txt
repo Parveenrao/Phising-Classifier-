@@ -1,0 +1,26 @@
+aiofiles
+dill
+dnspython
+database-connect
+evidently
+Flask
+httptools
+imblearn
+jinja
+matplotlib
+mypy-boto3-s3
+pip-chill
+pymongo
+python-dotenv
+python-multipart
+seaborn
+type-s3transfer
+uvicorn
+watchfiles
+websockets
+wincertstore
+xgboost
+neuro-mf
+boto3
+
+-e .
