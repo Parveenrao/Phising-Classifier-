@@ -1,0 +1,41 @@
+{    "SampleFileName": "phishing_08012020_12000.csv",
+     "LengthOfDateStampInFile" : 8,
+     "LengthOfTimeStampInFile" : 6,
+     "NumberOfColumns" : 31,
+     "ColName": {
+                "UsingIP": "INTEGER",
+                "LongURL": "INTEGER" ,              
+                "ShortURL": "INTEGER" ,      
+                "Symbol@": "INTEGER" ,       
+                "Redirecting//": "INTEGER",
+                "PrefixSuffix-": "INTEGER",      
+                "SubDomains": "INTEGER",          
+                "HTTPS":  "INTEGER",             
+                "DomainRegLen": "INTEGER",        
+                "Favicon":   "INTEGER",           
+                "NonStdPort": "INTEGER",         
+                "HTTPSDomainURL": "INTEGER",     
+                "RequestURL":  "INTEGER",          
+                "AnchorURL":  "INTEGER",        
+                "LinksInScriptTags": "INTEGER",  
+                "ServerFormHandler": "INTEGER",   
+                "InfoEmail": "INTEGER",           
+                "AbnormalURL": "INTEGER",         
+                "WebsiteForwarding":"INTEGER",   
+                "StatusBarCust":  "INTEGER",      
+                "DisableRightClick": "INTEGER",    
+                "UsingPopupWindow": "INTEGER",   
+                "IframeRedirection": "INTEGER",   
+                "AgeofDomain": "INTEGER",         
+                "DNSRecording": "INTEGER" ,       
+                "WebsiteTraffic": "INTEGER",      
+                "PageRank":  "INTEGER",           
+                "GoogleIndex": "INTEGER",         
+                "LinksPointingToPage":  "INTEGER",
+                "StatsReport": "INTEGER", 
+                "class":  "INTEGER"      
+                    
+                        
+     }
+     
+}
