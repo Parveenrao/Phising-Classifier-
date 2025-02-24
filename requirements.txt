@@ -6,7 +6,7 @@ evidently
 Flask
 httptools
 imblearn
-jinja
+jinja2
 matplotlib
 mypy-boto3-s3
 pip-chill
@@ -14,7 +14,7 @@ pymongo
 python-dotenv
 python-multipart
 seaborn
-type-s3transfer
+types-s3transfer
 uvicorn
 watchfiles
 websockets
