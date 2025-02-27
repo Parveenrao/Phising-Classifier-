@@ -53,10 +53,12 @@ class PredictionPipeline:
     def predict(self , features):
         try:
             model_path  = self.utils.download_model(
-                bucket_file_name=AWS_S3_BUCKET_NAME,
-                bucket_file_name = 'model.pkl',
-                desti_file_name= "model.pkl"
-            )    
+            bucket_name=AWS_S3_BUCKET_NAME,  # Assuming this should be the S3 bucket
+            bucket_file_name='model.pkl',  # The actual model file in the bucket
+            desti_file_name="model.pkl"
+       )
+ 
+               
             
             
             model = self.utils.load_object(file_path=model_path)

@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import StandardScaler , OneHotEncoder
 from sklearn.pipeline import Pipeline
-from imblearn.over_sampler import RandomOverSampler
+from imblearn.over_sampling import RandomOverSampler
 
 from src.constants import *
 from src.exception import CustomException

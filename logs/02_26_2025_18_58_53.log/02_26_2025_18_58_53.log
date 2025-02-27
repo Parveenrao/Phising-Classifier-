@@ -1,0 +1,5 @@
+[ 2025-02-26 18:58:56,770 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-02-26 18:58:56,777 ] 97 werkzeug - INFO -  * Debugger PIN: 815-452-210
+[ 2025-02-26 18:58:59,329 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Feb/2025 18:58:59] "GET /predict HTTP/1.1" 200 -
+[ 2025-02-26 18:59:05,096 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Feb/2025 18:59:05] "[33mPOST /upload HTTP/1.1[0m" 404 -
+[ 2025-02-26 19:00:36,605 ] 97 werkzeug - INFO -  * Detected change in 'D:\\Program\\Data Science Projects\\Phising Detection\\app.py', reloading

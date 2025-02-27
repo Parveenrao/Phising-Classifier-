@@ -1,0 +1,12 @@
+[ 2025-02-26 18:57:40,098 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-02-26 18:57:40,104 ] 97 werkzeug - INFO -  * Debugger PIN: 815-452-210
+[ 2025-02-26 18:57:42,347 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Feb/2025 18:57:42] "[33mPOST /upload HTTP/1.1[0m" 404 -
+[ 2025-02-26 18:57:48,037 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Feb/2025 18:57:48] "[33mGET /upload HTTP/1.1[0m" 404 -
+[ 2025-02-26 18:57:49,724 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Feb/2025 18:57:49] "[33mGET /upload HTTP/1.1[0m" 404 -
+[ 2025-02-26 18:57:53,791 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Feb/2025 18:57:53] "GET / HTTP/1.1" 200 -
+[ 2025-02-26 18:58:04,656 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Feb/2025 18:58:04] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+[ 2025-02-26 18:58:04,796 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Feb/2025 18:58:04] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-02-26 18:58:05,065 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Feb/2025 18:58:05] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-02-26 18:58:05,124 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Feb/2025 18:58:05] "GET /predict?__debugger__=yes&cmd=resource&f=console.png&s=tGJfPaf0Si3uhJuj9mXu HTTP/1.1" 200 -
+[ 2025-02-26 18:58:05,445 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Feb/2025 18:58:05] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2025-02-26 18:58:46,184 ] 97 werkzeug - INFO -  * Detected change in 'D:\\Program\\Data Science Projects\\Phising Detection\\app.py', reloading

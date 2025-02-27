@@ -1,0 +1,30 @@
+[ 2025-02-26 19:53:17,438 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-02-26 19:53:17,443 ] 97 werkzeug - INFO -  * Debugger PIN: 815-452-210
+[ 2025-02-26 19:53:20,123 ] 43 root - INFO - Starting data ingestion process...
+[ 2025-02-26 19:53:20,123 ] 26 root - INFO - Exporting data from MongoDB...
+[ 2025-02-26 19:53:20,125 ] 32 root - INFO - Saving exported data to: artifacts\02_26_2025_19_53_15\data_ingestion
+[ 2025-02-26 19:53:25,733 ] 34 root - INFO - Saving Phising, Shape: (33, 1)
+[ 2025-02-26 19:53:25,737 ] 46 root - INFO - Data successfully exported from MongoDB.
+[ 2025-02-26 19:53:25,737 ] 146 root - INFO - Starting data validation process.
+[ 2025-02-26 19:53:25,738 ] 33 root - INFO - Loading schema configuration...
+[ 2025-02-26 19:53:25,751 ] 106 root - INFO - Moved Phising.csv to artifacts\02_26_2025_19_53_15\data_validation\invalid
+[ 2025-02-26 19:53:25,752 ] 154 root - ERROR - No valid data files found. Stopping pipeline.
+[ 2025-02-26 19:53:25,775 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Feb/2025 19:53:25] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[ 2025-02-26 19:53:25,815 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Feb/2025 19:53:25] "[36mGET /train?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-02-26 19:53:26,132 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Feb/2025 19:53:26] "[36mGET /train?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-02-26 19:53:26,456 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Feb/2025 19:53:26] "GET /train?__debugger__=yes&cmd=resource&f=console.png&s=NQE2yd0NgdSmcuQ4AiW4 HTTP/1.1" 200 -
+[ 2025-02-26 19:56:53,231 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Feb/2025 19:56:53] "GET /predict HTTP/1.1" 200 -
+[ 2025-02-26 19:56:58,036 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Feb/2025 19:56:58] "[33mPOST /upload HTTP/1.1[0m" 404 -
+[ 2025-02-26 19:57:04,292 ] 43 root - INFO - Starting data ingestion process...
+[ 2025-02-26 19:57:04,292 ] 26 root - INFO - Exporting data from MongoDB...
+[ 2025-02-26 19:57:04,303 ] 32 root - INFO - Saving exported data to: artifacts\02_26_2025_19_53_15\data_ingestion
+[ 2025-02-26 19:57:08,076 ] 34 root - INFO - Saving Phising, Shape: (33, 1)
+[ 2025-02-26 19:57:08,078 ] 46 root - INFO - Data successfully exported from MongoDB.
+[ 2025-02-26 19:57:08,079 ] 146 root - INFO - Starting data validation process.
+[ 2025-02-26 19:57:08,079 ] 33 root - INFO - Loading schema configuration...
+[ 2025-02-26 19:57:08,081 ] 154 root - ERROR - No valid data files found. Stopping pipeline.
+[ 2025-02-26 19:57:08,127 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Feb/2025 19:57:08] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[ 2025-02-26 19:57:08,178 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Feb/2025 19:57:08] "[36mGET /train?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-02-26 19:57:08,491 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Feb/2025 19:57:08] "[36mGET /train?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-02-26 19:57:08,817 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Feb/2025 19:57:08] "[36mGET /train?__debugger__=yes&cmd=resource&f=console.png&s=NQE2yd0NgdSmcuQ4AiW4 HTTP/1.1[0m" 304 -
+[ 2025-02-26 19:58:29,555 ] 97 werkzeug - INFO -  * Detected change in 'D:\\Program\\Data Science Projects\\Phising Detection\\src\\pipeline\\train_pipeline.py', reloading

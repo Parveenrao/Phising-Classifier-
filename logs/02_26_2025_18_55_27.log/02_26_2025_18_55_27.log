@@ -1,0 +1,5 @@
+[ 2025-02-26 18:55:31,231 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-02-26 18:55:31,260 ] 97 werkzeug - INFO -  * Debugger PIN: 815-452-210
+[ 2025-02-26 18:55:36,526 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Feb/2025 18:55:36] "GET /predict HTTP/1.1" 200 -
+[ 2025-02-26 18:55:50,620 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Feb/2025 18:55:50] "[33mPOST /upload HTTP/1.1[0m" 404 -
+[ 2025-02-26 18:56:05,137 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Feb/2025 18:56:05] "[33mPOST /upload HTTP/1.1[0m" 404 -

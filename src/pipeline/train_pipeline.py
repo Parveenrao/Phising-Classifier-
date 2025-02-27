@@ -15,7 +15,9 @@ class  TrainingPipeline:
         try:
             
             data_ingestion = DataIngestion()
-            raw_data_dir = data_ingestion.initate_data_ingestion()
+            raw_data_dir = data_ingestion.initiate_data_ingestion()
+            
+            print("✅ Data Ingestion Completed. Raw data stored at:", raw_data_dir)
             
             return raw_data_dir
         
@@ -23,10 +25,10 @@ class  TrainingPipeline:
             raise CustomException(e , sys) from e 
         
     
-    def start_data_validation(self):
+    def start_data_validation(self , raw_data_dir):
         try:
             
-            data_validation = DataValidation()
+            data_validation = DataValidation(raw_data_store_dir = raw_data_dir)
             valid_data_dir = data_validation.initiate_data_validation() 
             return valid_data_dir
         
@@ -38,9 +40,9 @@ class  TrainingPipeline:
         try:
             
             data_transformation = DataTransformation(valid_data_dir = valid_data_dir)
-            X_train , y_train , X_train , y_train , preprocessor_path = data_transformation.initiate_data_transformation()
+            X_train , y_train , X_test , y_test , preprocessor_path = data_transformation.initiate_data_transformation()
             
-            return   X_train , y_train , X_train , y_train , preprocessor_path
+            return   X_train , y_train , X_test , y_test , preprocessor_path
         
         except Exception as e:
             raise CustomException(e, sys) from e
@@ -64,9 +66,9 @@ class  TrainingPipeline:
     def run_pipeline(self):
         try:
             raw_data_dir = self.start_data_ingestion()
-            valid_data_dir = self.start_data_validation(valid_data_dir)
-            X_train , y_train , X_train , y_train , preprocessor_path = self.start_data_transformation(valid_data_dir)
-            r2_square = self.start_model_trainig(X_train , y_train , X_train , y_train , preprocessor_path)
+            valid_data_dir = self.start_data_validation(raw_data_dir)
+            X_train , y_train , X_test , y_test , preprocessor_path = self.start_data_transformation(valid_data_dir)
+            r2_square = self.start_model_trainig(X_train , y_train , X_test , y_test , preprocessor_path)
             
             print("Training Completed . Trained Model Score :" , r2_square)
             

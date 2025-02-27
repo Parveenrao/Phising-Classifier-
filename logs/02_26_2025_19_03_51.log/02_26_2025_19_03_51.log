@@ -1,0 +1,11 @@
+[ 2025-02-26 19:03:55,170 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-02-26 19:03:55,177 ] 97 werkzeug - INFO -  * Debugger PIN: 815-452-210
+[ 2025-02-26 19:03:57,271 ] 57 root - INFO - Entered the initate_data_ingestion of Data Ingestion class
+[ 2025-02-26 19:03:57,271 ] 32 root - INFO - Exporting data from mongodb
+[ 2025-02-26 19:03:57,284 ] 39 root - INFO - Saving exported data into feature store file path : artifacts\02_26_2025_19_03_53\data_ingestion
+[ 2025-02-26 19:03:57,331 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Feb/2025 19:03:57] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[ 2025-02-26 19:03:57,361 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Feb/2025 19:03:57] "[36mGET /train?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-02-26 19:03:57,673 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Feb/2025 19:03:57] "[36mGET /train?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-02-26 19:03:58,013 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Feb/2025 19:03:58] "GET /train?__debugger__=yes&cmd=resource&f=console.png&s=TJmw0PvzvCGlisNKLfei HTTP/1.1" 200 -
+[ 2025-02-26 19:03:58,275 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Feb/2025 19:03:58] "[36mGET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2025-02-26 19:06:10,380 ] 97 werkzeug - INFO -  * Detected change in 'D:\\Program\\Data Science Projects\\Phising Detection\\src\\data_access\\phising_data.py', reloading

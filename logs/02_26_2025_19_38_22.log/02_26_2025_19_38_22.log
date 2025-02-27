@@ -1,0 +1,8 @@
+[ 2025-02-26 19:38:26,761 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2025-02-26 19:38:26,769 ] 97 werkzeug - INFO -  * Debugger PIN: 815-452-210
+[ 2025-02-26 19:38:29,007 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Feb/2025 19:38:29] "GET / HTTP/1.1" 200 -
+[ 2025-02-26 19:38:33,250 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Feb/2025 19:38:33] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[ 2025-02-26 19:38:33,444 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Feb/2025 19:38:33] "[36mGET /train?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2025-02-26 19:38:33,711 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Feb/2025 19:38:33] "[36mGET /train?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2025-02-26 19:38:33,759 ] 97 werkzeug - INFO - 127.0.0.1 - - [26/Feb/2025 19:38:33] "GET /train?__debugger__=yes&cmd=resource&f=console.png&s=I236Iy3wZE7PgXJk9C6C HTTP/1.1" 200 -
+[ 2025-02-26 19:40:31,066 ] 97 werkzeug - INFO -  * Detected change in 'd:\\program\\data science projects\\phising detection\\src\\components\\data_ingestion.py', reloading
